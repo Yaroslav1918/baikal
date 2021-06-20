@@ -1,0 +1,241 @@
+html {
+  box-sizing: border-box;
+}
+
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.main-directions {
+  background-color: rgba(112, 207, 41, 0.07);
+}
+
+.main-directions-container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1120px;
+}
+
+.main-directions-title {
+  font-family: PT Serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1.3;
+  text-align: center;
+  color: #000000;
+}
+
+.main-directions-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding-left: 0px;
+}
+
+.main-directions-list-item {
+  display: inline-block;
+  width: 256px;
+}
+
+.main-directions-list-item:not(:nth-child(4n + 4)) {
+  margin-right: 32px;
+}
+
+.main-directions-list-item:not(:nth-child(n + 4)) {
+  margin-bottom: 37px;
+}
+
+/* .main-directions-list-item::before {
+  content: '';
+  display: block;
+  width: 84px;
+  height: 84px;
+  margin-bottom: 16px;
+} */
+
+.main-directions-list-item.item-1::before {
+  content: '';
+  display: inline-block;
+  width: 84px;
+  height: 84px;
+  margin-bottom: 16px;
+  background-image: url(../images/group-37.svg);
+  background-size: contain;
+}
+
+.main-directions-list-item.item-2::before {
+  content: '';
+  display: block;
+  width: 84px;
+  height: 84px;
+  margin-bottom: 16px;
+  background-image: url(../images/group-38.svg);
+  background-size: contain;
+}
+
+.main-directions-list-item.item-3::before {
+  content: '';
+  display: block;
+  width: 84px;
+  height: 84px;
+  margin-bottom: 16px;
+  background-image: url(../images/group-39.svg);
+  background-size: contain;
+}
+
+.main-directions-list-item.item-4::before {
+  content: '';
+  display: block;
+  width: 84px;
+  height: 84px;
+  margin-bottom: 16px;
+  background-image: url(../images/group-40.svg);
+  background-size: contain;
+}
+
+.main-directions-list-item.item-5::before {
+  content: '';
+  display: block;
+  width: 84px;
+  height: 84px;
+  margin-bottom: 16px;
+  background-image: url(../images/group-41.svg);
+  background-size: contain;
+}
+
+.main-directions-list-item.item-6::before {
+  content: '';
+  display: block;
+  width: 84px;
+  height: 84px;
+  margin-bottom: 16px;
+  background-image: url(../images/group-42.svg);
+  background-size: contain;
+}
+
+.main-directions-list-item.item-7::before {
+  content: '';
+  display: block;
+  width: 84px;
+  height: 84px;
+  margin-bottom: 16px;
+  background-image: url(../images/group-30.svg);
+  background-size: contain;
+}
+
+.main-directions-list-item.item-8::before {
+  content: '';
+  display: block;
+  width: 84px;
+  height: 84px;
+  margin-bottom: 16px;
+  background-image: url(../images/group-44.svg);
+  background-size: contain;
+}
+
+.main-directions-list-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.3;
+  color: #333333;
+}
+
+.photo-gallery {
+  padding: 44px 0 80px ;
+}
+
+.photo-gallery-container {
+  width: 1120px;
+  margin: 0 auto;
+}
+.photo-gallery-menu {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.photo-gallery-menu-link {
+  font-family: Roboto;
+font-size: 16px;
+line-height: 1.18;
+text-decoration-line: underline;
+color: #0050B2;
+  margin-right: 50px;
+}
+.photo-gallery-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 59px;
+}
+.photo-gallery-menu-list {
+  display: flex;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.photo-gallery-menu-list-item {
+font-family: Roboto;
+font-size: 16px;
+line-height: 1.18;
+text-decoration-line: underline;
+color: #0050B2;
+  margin-right: 16px;
+}
+
+.photo-gallery-title {
+font-family: PT Serif;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 1.3;
+color: #000000;
+}
+.photo-gallery-gallery-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+}
+
+.photo-gallery-menu-list-button {
+  width: 44px;
+  height: 44px;
+
+border: 1px solid #0061D9;
+box-sizing: border-box;
+border-radius: 22px;
+transform: rotate(-180deg);
+
+}
+
